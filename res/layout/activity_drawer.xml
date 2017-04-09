@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imgView"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:background="#F6F6F6"
+                android:text=" 주차장명" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:text=" 주차장주소" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:background="#F6F6F6"
+                android:text=" 사용시작시간" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:text=" 사용마감시간" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:background="#F6F6F6"
+                android:text=" 주차면수" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:text=" CCTV여부" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:background="#F6F6F6"
+                android:id="@+id/titleText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_15sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:id="@+id/addrText"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:background="#F6F6F6"
+                android:id="@+id/startTime" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:id="@+id/endTime" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:background="#F6F6F6"
+                android:id="@+id/lotText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sp"
+                android:textSize="@dimen/_20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:id="@+id/camText"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#F6F6F6"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sp"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:background="#F6F6F6"
+            android:textColor="#FF4848"
+            android:text=" ※주인장 공지"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sp"
+            android:gravity="center_vertical"
+            android:background="#F6F6F6"
+            android:id="@+id/msgText"/>
+    </LinearLayout>
+
+</LinearLayout>
